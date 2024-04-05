@@ -3,6 +3,7 @@
   }
   
   body {
+    background-color: aliceblue;
     font-family: sans-serif;
     margin: 20px;
     padding: 0;
@@ -57,18 +58,18 @@
   }
   
   .square {
-    background: #fff;
-    border: 1px solid #999;
+    background: beige;
+    border: 2px solid #000000;
     float: left;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
     line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
+    height: 50px;
+    margin: auto;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 50px;
   }
   
   .board-row:after {
@@ -79,6 +80,7 @@
   
   .status {
     margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
   }
   .game {
     display: flex;
@@ -87,5 +89,11 @@
   
   .game-info {
     margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
+  }
+
+  .moves {
+    background-color:#d9b2d9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
   }
   
