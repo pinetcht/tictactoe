@@ -94,6 +94,13 @@
 
   .moves {
     background-color:#d9b2d9;
+    border:1px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
+  }
+
+  .selected-move {
+    background-color:#d9b2d9;
+    border:3px solid black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
   }
   
